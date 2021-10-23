@@ -1,0 +1,30 @@
+{
+  "name": "cls",
+  "version": "1.0.0",
+  "description": "Práctica 2 GULP y SASS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yorsh355/3-column-preview-card-component-main.git"
+  },
+  "keywords": [
+    "GULP",
+    "Y",
+    "SASS"
+  ],
+  "author": "Yorman Londoño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yorsh355/3-column-preview-card-component-main/issues"
+  },
+  "homepage": "https://github.com/Yorsh355/3-column-preview-card-component-main#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.2"
+  }
+}
